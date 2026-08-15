@@ -1,0 +1,441 @@
+{
+  "generated_at": "2026-08-15T17:39:17Z",
+  "packages": {
+    "@fastify/ajv-compiler": {
+      "dependencies": [
+        "ajv",
+        "ajv-formats",
+        "fast-uri"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "3.6.0"
+    },
+    "@fastify/error": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.4.1"
+    },
+    "@fastify/fast-json-stringify-compiler": {
+      "dependencies": [
+        "fast-json-stringify"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "4.3.0"
+    },
+    "@fastify/merge-json-schemas": {
+      "dependencies": [
+        "fast-deep-equal"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "0.1.1"
+    },
+    "@probe/client": {
+      "dependencies": [
+        "hono",
+        "zod"
+      ],
+      "group": "main",
+      "source": "local",
+      "source_detail": {
+        "workspace": "packages/client"
+      },
+      "version": "1.0.0"
+    },
+    "@probe/server": {
+      "dependencies": [
+        "fastify",
+        "zod"
+      ],
+      "group": "main",
+      "source": "local",
+      "source_detail": {
+        "workspace": "packages/server"
+      },
+      "version": "1.0.0"
+    },
+    "abort-controller": {
+      "dependencies": [
+        "event-target-shim"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "3.0.0"
+    },
+    "abstract-logging": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.0.1"
+    },
+    "ajv": {
+      "dependencies": [
+        "fast-deep-equal",
+        "json-schema-traverse",
+        "require-from-string",
+        "uri-js"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "8.17.1"
+    },
+    "ajv-formats": {
+      "dependencies": [
+        "ajv"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "2.1.1"
+    },
+    "atomic-sleep": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.0.0"
+    },
+    "avvio": {
+      "dependencies": [
+        "@fastify/error",
+        "fastq"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "8.3.2"
+    },
+    "base64-js": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.5.1"
+    },
+    "buffer": {
+      "dependencies": [
+        "base64-js",
+        "ieee754"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "6.0.3"
+    },
+    "cookie": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "0.6.0"
+    },
+    "event-target-shim": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "5.0.1"
+    },
+    "events": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.3.0"
+    },
+    "fast-content-type-parse": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.1.0"
+    },
+    "fast-deep-equal": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.1.3"
+    },
+    "fast-json-stringify": {
+      "dependencies": [
+        "@fastify/merge-json-schemas",
+        "ajv",
+        "ajv-formats",
+        "fast-uri",
+        "json-schema-ref-resolver",
+        "rfdc"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "5.16.1"
+    },
+    "fast-redact": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.5.0"
+    },
+    "fast-uri": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.0.3"
+    },
+    "fastify": {
+      "dependencies": [
+        "@fastify/ajv-compiler",
+        "@fastify/error",
+        "@fastify/fast-json-stringify-compiler",
+        "abstract-logging",
+        "avvio",
+        "fast-content-type-parse",
+        "fast-json-stringify",
+        "find-my-way",
+        "light-my-request",
+        "pino",
+        "process-warning",
+        "rfdc",
+        "secure-json-parse",
+        "semver",
+        "tiny-lru"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "4.28.1"
+    },
+    "fastq": {
+      "dependencies": [
+        "reusify"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "1.17.1"
+    },
+    "find-my-way": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "8.2.2"
+    },
+    "hono": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "4.4.13"
+    },
+    "ieee754": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.2.1"
+    },
+    "json-schema-ref-resolver": {
+      "dependencies": [
+        "fast-deep-equal"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "1.0.1"
+    },
+    "json-schema-traverse": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.0.0"
+    },
+    "light-my-request": {
+      "dependencies": [
+        "@fastify/error",
+        "cookie",
+        "process-warning"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "5.13.0"
+    },
+    "on-exit-leak-free": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.1.2"
+    },
+    "pino": {
+      "dependencies": [
+        "atomic-sleep",
+        "fast-redact",
+        "on-exit-leak-free",
+        "pino-abstract-transport",
+        "pino-std-serializers",
+        "process-warning",
+        "quick-format-unescaped",
+        "real-require",
+        "safe-stable-stringify",
+        "sonic-boom",
+        "thread-stream"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "8.21.0"
+    },
+    "pino-abstract-transport": {
+      "dependencies": [
+        "readable-stream",
+        "split2"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "1.2.0"
+    },
+    "pino-std-serializers": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "6.2.2"
+    },
+    "process": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "0.11.10"
+    },
+    "process-warning": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.0.0"
+    },
+    "punycode": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.3.1"
+    },
+    "quick-format-unescaped": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "4.0.4"
+    },
+    "readable-stream": {
+      "dependencies": [
+        "abort-controller",
+        "buffer",
+        "events",
+        "process",
+        "string_decoder"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "4.5.2"
+    },
+    "real-require": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "0.2.0"
+    },
+    "require-from-string": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.0.2"
+    },
+    "reusify": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.0.4"
+    },
+    "rfdc": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "1.4.1"
+    },
+    "safe-buffer": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "5.2.1"
+    },
+    "safe-stable-stringify": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.4.3"
+    },
+    "secure-json-parse": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.7.0"
+    },
+    "semver": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "7.6.2"
+    },
+    "sonic-boom": {
+      "dependencies": [
+        "atomic-sleep"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "3.8.1"
+    },
+    "split2": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "4.2.0"
+    },
+    "string_decoder": {
+      "dependencies": [
+        "safe-buffer"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "1.3.0"
+    },
+    "thread-stream": {
+      "dependencies": [
+        "real-require"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "2.7.0"
+    },
+    "tiny-lru": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "11.2.9"
+    },
+    "uri-js": {
+      "dependencies": [
+        "punycode"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "4.4.1"
+    },
+    "zod": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.23.8"
+    }
+  },
+  "pm": "pnpm",
+  "pm_version_tested": "11.22.0",
+  "root": {
+    "dependencies": [
+      "@probe/server",
+      "@probe/client"
+    ],
+    "name": "workspace-schema-prune-v11",
+    "version": "0.0.0"
+  },
+  "schema_version": "1.0",
+  "source_file": "pnpm-lock.yaml",
+  "warnings": [
+    "root importer '.' has no production dependencies; workspace packages @probe/server and @probe/client are modeled as local direct dependencies of the root",
+    "pnpm.minimumReleaseAgeExcludePrune is a pnpm 11.22 install-only setting; it does not affect the lockfile or the resolved tree",
+    "pnpm-workspace.yaml settings.onlyBuiltDependencies is a schema-hardened field in pnpm 11; if Mend's YAML parser aborts on this key, workspace packages will be absent from the detected tree"
+  ]
+}
